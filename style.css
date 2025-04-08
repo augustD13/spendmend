@@ -1,0 +1,604 @@
+
+
+/* This is for navigation bar */
+*{
+    padding:0;
+    margin: 0;
+}
+
+#navbar {
+    background: #fff;
+    height: 70px ;
+    border-bottom: 1px solid #000;
+    padding: 0px 50px 0px 50px;
+    }
+
+#logo h2 {
+        position: absolute;
+        top: 3.5%; 
+        left: 10%;
+        font-size: 28px; 
+        font-weight: 900;   
+
+    }
+
+.spend {
+    color:#030148;
+    display: flex;
+}
+
+.mend {
+    color:#4a9703; 
+    display: flex;
+    margin-left: 89px;
+}
+
+#menu  {
+   margin-top: 10px;
+   margin-left: 200px;
+   display: flex;
+}
+
+ #menu li, a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px; 
+    margin-right: 12.5px; 
+}
+
+#menu li a:hover {
+    color: #4a9703; 
+    text-decoration: underline;  
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#logo img {
+    width: 70px;
+    float: left;
+}
+
+#navmenu { 
+    width: 500px;
+    float:left;
+    margin-left: 90px;
+}
+
+#logo, #navmenu {
+margin-top: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchbox {
+    margin-top: 6px;
+    left: 90px;   
+    position: relative;
+    float:left;   
+}
+
+#searchbox input {
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 2px 8px 2px 8px;
+    margin-left: 90px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 60px;
+}
+
+#searchbox img{
+position: absolute;
+top: 9px;
+left: 250px;
+width: 14px; 
+height: 14px;
+cursor: pointer;
+filter: invert(100%);
+border-radius: 100px;
+background-color: rgb(223, 183, 183);
+padding: 4px 4px 4px 4px;
+}
+
+#portal button {
+    font-weight: bold;
+    background: #4a9703; 
+    border-radius: 100px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 18px;
+    border: 0px;
+    color: #fff;
+    font-size: 10px;
+    margin-right: 1px;
+    float: left;
+    margin-left: 50px;
+}
+
+
+ /* Welcome */
+
+ #welcomebox{
+    width: 100%;
+    height: 550px;
+    background-image: url('C:/Users/ryssa/OneDrive/Desktop/Documents/Turija/assets/img/3.png');
+    background-size: cover; 
+    background-repeat: no-repeat;  
+ }
+
+ #innerbox {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px; 
+ }
+ 
+ #welcomebox h1{
+    font-size: 65px;
+    color: #030148;
+ }
+
+ #welcomebox h4{
+    font-size: 25px;
+    width: 380px;
+    margin-bottom: 20px;
+    color: #030148; 
+ }
+
+ #boxes button {
+    padding: 10px 23px 10px 23px;
+    margin-top: 15px;
+    margin-right: 13px;
+    margin-left: 0px;
+    border: 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    border-radius: 4px;
+ }
+
+ #boxes button:nth-child(1) {
+    background-color: #030148;
+    border-bottom: 2px solid  #040236;
+}
+#boxes button:nth-child(2) { 
+    background-color: #4a9703;
+    border-bottom: 2px solid  #254a02;   
+}
+#boxes button:nth-child(3) {
+    background-color: grey;  
+    border-bottom: 2px solid rgb(47, 46, 46); 
+}
+
+#boxes img {
+height: 14px;
+width: 14px;
+margin-right: 7px;
+margin-bottom: 3px;
+float: left;
+filter: brightness(0) saturate(100%) invert(100%);
+}
+
+
+/* Three*/
+#three{
+    background-color:white;
+    height: 300px;
+    display: inline-flex;
+    right: 60px;
+    float: left; 
+}
+
+#three img {
+width: 60px;
+float: left;
+display: inline;
+margin-bottom: 10px;
+}
+ 
+.recover{
+    margin-left:20px;
+}
+.optimize{
+    margin-right: 80px;
+}
+.insights{
+    margin-right: 10px;
+}
+
+#three h1{
+font-size: 30px;
+margin-top: 9px;  
+}
+
+.recover h1{
+color: #4a9703;
+font-weight: 800;  
+}
+
+.optimize h1{
+color:#030148;
+font-weight: 800;
+}
+ 
+.insights h1{
+color: #4a9703; 
+font-weight: 800;   
+}
+
+.recover, .optimize, .insights{
+ padding: 80px 60px 80px 60px;
+ justify-content: space-evenly;
+}
+
+#three p{
+    margin-top: 10px ;
+    margin-left: 70px;
+    font-size: 11px;
+    line-height: 17px;    
+}
+
+.recover p{
+    margin-inline-end: 30px;
+}
+
+.optimize p{
+    margin-inline-end: 1px;
+}
+
+.insights p{
+    margin-inline-end: 1px;
+}
+
+/* ABOUT US*/
+
+#us {
+        background-image:url('C:/Users/ryssa/OneDrive/Desktop/Documents/Turija/assets/img/WE REVEAL.png') ;
+        margin-top: 300px;
+        height: 500px;
+        background-attachment:scroll;
+        background-size:cover; 
+        background-repeat: no-repeat;  
+        background-position: 0px;
+        text-align: left;      
+}
+
+.ABOUT, .US {
+display: inline-flex;
+margin-top: 90px;
+font-size: 45px;
+}
+
+.ABOUT{
+    margin-left: 100px;
+    color: #4a9703;
+    font-weight: lighter;
+    
+}
+
+.US{
+    color:#030148;  
+    margin-left: 14px;
+    font-weight: 10000000px;
+}
+
+#aboutus p {
+    margin-top: 20px;
+    font-size: 14.5px;
+    margin-left: 100px;
+    margin-right: 505px;
+    line-height: 24px;      
+}
+
+#us button{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    color:#4a9703;
+    border-color: #7fff07;
+    font-size: 11px;
+
+}
+ #us button:hover {
+    color:black; 
+    background-color: #5da51a;
+    
+}
+
+/*many logo*/
+
+#manylogo {
+    width: auto;
+    height: 300px;
+    background-color: white;
+     
+}
+
+.your {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.your img {
+   height: 60px;
+   width: auto;
+  
+ 
+}
+
+.your  p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.pictures{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 110px;
+    margin-left: 150px;
+    
+}
+/*location*/
+
+#location {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-image: url('C:/Users/ryssa/OneDrive/Desktop/Documents/Turija/assets/img/o.png');
+}
+
+.CONTACT{
+margin-left: 598px;
+color: #4a9703;
+font-weight: lighter;
+     
+}
+
+.USS {
+    color:#030148;  
+    font-weight: 10000000px;
+}
+
+.CONTACT, .USS {
+    display: inline-flex;
+    font-size: 38px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+
+#contactus img {
+    height:15px;
+    width: 15px;
+    filter: invert();
+    background-color: rgb(59, 58, 58);
+    border-radius: 0px;
+    border-color: black;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2px;;
+    
+}
+
+#name, #information, #message, button {
+    margin-left: 600px ; 
+      
+}
+#contactus  input{
+    padding: 7.5px 51px 7.5px 51px;
+    border-radius: 0px;
+    border-color:transparent ;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    background-color: #e8eced ;
+
+    
+}
+    
+#message input{
+    padding:  50px 226px;
+    margin-left: 2px;
+   
+}
+
+#message input::placeholder {
+width: 100px;
+position: absolute;
+top: 10px;
+pointer-events: none;
+left: 40px;
+}
+
+#name input::placeholder {
+   
+position: absolute;
+top: 8px;
+pointer-events: none;
+left: 15px;
+}
+
+#information input::placeholder {
+position: absolute;
+top: 8px;
+pointer-events: none;
+left: 15px;
+ }
+
+ #contactus button{
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    color:#fff;
+    border-color: transparent ;
+    font-size:  12px;
+    background-color: #5da51a;
+}
+
+#contactus button:hover {
+    background-color: #b7ff78;
+     color: #000;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+}
+
+#foot {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 20px;
+}
+
+
+.quicklinks,
+.help {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.spendmend {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.spendmend img {
+    height: 40px;
+    width: 40px;
+}
+
+.spendmend h2 {
+    display: inline-flex;
+    position:relative;
+    bottom: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.SPEND, .MEND{
+display: inline-flex;
+
+}
+
+.SPEND {
+    color: #030148;
+
+}
+
+.MEND {
+    color: #4a9703;
+   right: 105px;
+}
+
+.spendmend p {
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 17px;
+  margin-inline-end: 150px;
+}
+
+.quicklinks h6{
+    display: inline-flex;
+    white-space: nowrap;
+   
+  
+}
+
+.quicklinks, .help, .conus {
+    margin: 10px;
+    margin-right: 105px;
+}
+
+.quicklinks h6, .help h6, .conus h6 {
+    margin-bottom: 10px;
+    font-size: 11px;
+ 
+    
+}
+
+.quicklinks ul, .help ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 15px;
+    margin-top: 15px; 
+    white-space: nowrap;  
+}
+
+.quicklinks li, .help li {
+    margin: 5px 0;
+    
+}
+.quicklinks a, .help a {
+    margin: 5px 0;
+    color: rgb(97, 96, 96);    
+}
+
+.conus img {
+    height: 10px;
+    width: 10px;
+    position: absolute; 
+    filter: invert(30%);  
+}
+
+.conus img, .conus p{
+line-height: 18px;
+}
+
+.conus{
+    margin-right: 90px;
+}
+
+.conus p {
+    display:inline;
+  margin-left: 10px;
+    font-size: 11px;
+    color: rgb(97, 96, 96);
+    margin-right: 90px;
+    
+}
+
+.copyright {
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.social img {
+    height: 15px;
+    width: 15px;
+    filter: invert(30%);
+    margin-top: 20px;
+   
+}
+
+.social{
+    margin-left: 12px;  
+    display: flex;
+    gap: 10px;
+}
+
+
+.arrow img {
+    height: 90px;
+    width: 140px;
+    margin-left: 80px;
+    top: 2250px;
+    position: absolute;
+    filter: invert(10%);
+    
+}
+
